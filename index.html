@@ -1,0 +1,191 @@
+<!-- Copyright (C) 2023-2025 anonymous
+
+This file is part of PSFree.
+
+PSFree is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+PSFree is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>PSFree v1.5.0 - PS4/PS5 Exploit</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+        <style>
+            @font-face {
+                font-family: 'Liberation Mono';
+                src: url('fonts/LiberationMono-Regular.ttf');
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>PSFree v1.5.0</h1>
+                <p>PS4/PS5 Exploit Chain</p>
+            </div>
+
+            <div class="card">
+                <h2 class="card-title">Status</h2>
+                <div id="status-container">
+                    <p><span class="status-indicator status-running" id="status-icon"></span> <span id="status-text">Running exploit...</span></p>
+                    <div class="progress-container">
+                        <div class="progress-bar" id="progress-bar"></div>
+                    </div>
+                </div>
+                <!-- Run exploit and reset buttons removed -->
+            </div>
+
+            <div class="tabs">
+                <div class="tab active" data-tab="console">Console</div>
+                <!-- Payloads and settings tabs removed -->
+            </div>
+
+            <div class="tab-content active" id="tab-console">
+                <pre id="console"></pre>
+            </div>
+
+            <!-- Payloads and settings tabs removed -->
+
+            <!-- Info content moved below console -->
+            <div class="card" style="margin-top: 20px;">
+                <h2 class="card-title">About PSFree</h2>
+                             </ul>
+                <p>PSFree uses:</p>
+            
+            <div class="card" style="margin-top: 20px;">
+                <h2 class="card-title">Quick Guide</h2>
+                <ol>
+                 
+              
+            </div>
+        </div>
+
+        <script src="js/remote-logger.js"></script>
+        <script src="js/payload-manager.js"></script>
+        <script src="js/ui.js"></script>
+        <script src="payload.js"></script>
+        <script>
+            // Initialize Remote Logger
+            document.addEventListener('DOMContentLoaded', function() {
+                // Try to get server IP from URL parameter
+                const urlParams = new URLSearchParams(window.location.search);
+                const serverIp = urlParams.get('server');
+
+                // Logger configuration
+                const loggerConfig = {
+                    enabled: true,
+                    localConsole: true
+                };
+
+                // If a server parameter is present, use it
+                if (serverIp) {
+                    loggerConfig.serverUrl = `http://${serverIp}:3000`;
+                }
+
+                // Initialize logger
+                window.RemoteLogger.init(loggerConfig);
+
+                // Log browser info
+                window.RemoteLogger.info('PSFree initialized', {
+                    userAgent: navigator.userAgent,
+                    url: window.location.href,
+                    timestamp: new Date().toISOString()
+                });
+            });
+        </script>
+        <script type="module" src="./alert.mjs"></script>
+    </body>
+</html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PS Deals Bahrain</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #000;
+      color: white;
+      text-align: center;
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('background.jpg') no-repeat center center/cover;
+      z-index: 0;
+      opacity: 0.25;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .logo {
+      width: 180px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #00ffcc;
+    }
+
+    .handle {
+      font-size: 2.2rem;
+      font-weight: bold;
+      color: #00ffff;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #00ffff;
+    }
+
+    .insta-button {
+      background-color: #e1306c;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 1rem;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      text-decoration: none;
+      box-shadow: 0 0 10px #e1306c;
+    }
+
+    .insta-button:hover {
+      background-color: #c72e5c;
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+    <img src="https://www2.0zz0.com/2025/05/20/22/841403415.jpg" alt="PSDeals Logo" class="logo">
+    <div class="handle">@PS_DEALS_BH</div>
+    <a href="https://www.instagram.com/ps_deals_bh?igsh=YzljYTk1ODg3Zg==" class="insta-button" target="_blank">
+      زر لزيارة الإنستقرام
+    </a>
+  </div>
+</body>
+</html>
